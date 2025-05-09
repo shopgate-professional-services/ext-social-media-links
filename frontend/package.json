@@ -1,0 +1,18 @@
+{
+  "name": "@shopgate-project/social-media-links",
+  "version": "1.0.0-beta.1",
+  "description": "This extension provides a configurable set of icon-based links — such as social media or other external pages.",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm run test -- --watch",
+    "coverage": "jest --coverage",
+    "coverage:watch": "npm run coverage -- --watch"
+  },
+  "devDependencies": {
+    "@shopgate/eslint-config": "^7.22.0",
+    "@shopgate/engage": "^7.22.0",
+    "prop-types": "^15.8.1",
+    "react": "^16.14.0"
+  }
+}
