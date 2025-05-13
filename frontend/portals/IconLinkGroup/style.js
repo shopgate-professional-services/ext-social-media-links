@@ -24,7 +24,10 @@ const linkGroup = css({
 }).toString();
 
 const link = css({
+  display: 'flex',
   justifyItems: 'center',
+  justifyContent: 'center',
+  alignItems: 'center',
 }).toString();
 
 const icon = css({
@@ -34,15 +37,12 @@ const icon = css({
 }).toString();
 
 const circle = css({
+  display: 'flex',
+  position: 'relative',
   width: '40px',
   height: '40px',
   backgroundColor: colorCircle || colors.cta,
   borderRadius: '50%',
-  listStyle: 'none',
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  position: 'relative',
 }).toString();
 
 export default {
