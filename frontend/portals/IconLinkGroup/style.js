@@ -9,18 +9,17 @@ const container = css({
   alignItems: 'center',
   justifyContent: 'center',
   width: '100%',
-  margin: '16px 0',
+  margin: `${themeConfig.variables.gap.big}px 0`,
 }).toString();
 
 const linkGroup = css({
   listStyle: 'none',
-  padding: '6px 0',
   margin: 0,
   display: 'flex',
   flexWrap: 'wrap',
   justifyContent: 'center',
   alignItems: 'center',
-  gap: '1rem',
+  gap: `${themeConfig.variables.gap.big}px`,
 }).toString();
 
 const link = css({
