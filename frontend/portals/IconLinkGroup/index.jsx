@@ -18,11 +18,11 @@ const IconLinkGroup = ({ name }) => {
   }
 
   return (
-    <div className={`${styles.container} --social-media-container`} role="navigation">
+    <div className={`${styles.container} social__media__container`} role="navigation">
       <ul className={styles.linkGroup}>
         {links.map(({ label, url, iconSvgContent }) => (
           url && (
-            <li key={label} className={`${styles.circle} --social-media-link`}>
+            <li key={label} className={`${styles.circle} social__media__link`}>
               <Link
                 href={url}
                 state={{ target: '_blank' }}
