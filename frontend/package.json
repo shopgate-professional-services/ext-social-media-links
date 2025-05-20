@@ -1,6 +1,6 @@
 {
   "name": "@shopgate-project/social-media-links",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "description": "This extension provides a configurable set of icon-based links — such as social media or other external pages.",
   "license": "Apache-2.0",
   "scripts": {
